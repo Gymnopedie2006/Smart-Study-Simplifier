@@ -27,7 +27,7 @@ function App() {
           body: JSON.stringify({
             contents: [{
               parts: [{
-                text: `Explain this like I'm 5, give 3 bullet points, and 1 quiz question: ${inputText}`
+                text: `Summarise the text. The summary should not be be smaller than 500 words. Give 3 bullet points, and 1 quiz question: ${inputText}`
               }]
             }]
           }),
